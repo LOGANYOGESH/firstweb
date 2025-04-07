@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BURGER KING</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;  
+        flex-wrap: wrap;
+        background-color:rgb(44, 31, 44) ;
+        color: white;
+        height: 500px;
+      }
+      .navbar{
+        display: flex;
+        background-color: black;
+        color: white;
+        position: relative;
+        bottom: 5px;
+        height: 60px;
+
+      }
+       .burger{
+        padding-left: 20px;
+       }
+      .ul{
+        display: flex;
+        position: relative;
+        top: 10px;
+        height:40px ;
+        
+       
+      }
+      li{
+        padding: 10px;
+        list-style: none; 
+        border-radius: 50px;
+      }
+      
+      a{
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        
+      }
+      a:hover{
+       color: orangered;
+       transition: 1s;
+       transition: ease-in-out;
+       font-size: 18px;
+      
+      }
+      img{
+     
+      width:700px;
+      margin-left: 500px;
+      position: relative;
+      
+      }
+      .head{
+        position: relative;
+        bottom: 400px;
+        width: 400px;
+        left: 100px;
+         height: 100px;
+      }
+      .king{
+        padding-left: 80px;
+        color: orangered;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 50px;
+        font-weight: bolder;
+      }
+      .most{
+        position: relative;
+        bottom: 20px;
+      }
+      .today{
+         position: relative;
+         bottom: 40px;
+         left: 90px;
+         border: 2px solid white;
+         border-radius: 50px;
+         background-color: orange;
+         color: white;
+      }
+     .today:hover{
+      color: white;
+      background-color: transparent;
+     }
+      .img2{
+        width:500px;
+        margin-left: 500px;
+       position: relative;
+       bottom: 70px;
+       right: 400px;
+      }
+      #sec{
+       height: 50px;
+       width: 600px;
+       position: relative;
+       left: 650px;
+       bottom: 500px;
+      }
+      .about{
+        color: orangered;
+
+      }
+      .lang{
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+      }
+      #lorem{
+        text-align: center;
+        padding-top: 10px;
+      }
+      #learn{
+        border: 1px solid white;
+        position: relative;
+        top: 20px;
+        left: 10px;
+        border-radius: 20px;
+        background-color: orangered;
+      }
+      #learn:hover{
+        background-color: transparent;
+        color: white;
+      }
+      .box{
+        width: 500px;
+        position: relative;
+        bottom: 180px;
+        left: 32%;
+      }
+      #menu{
+        color: orangered;
+        text-align: center;
+        position: relative;
+        top: 80px;
+        
+      }
+      #taste{
+        padding-left: 40px;
+        position: relative;
+        top: 90px;
+      }
+      .box2{
+        display: flex;
+        
+
+      }
+      .one{
+        border: 2px solid white;
+        width: 270px;
+        background-color: white;
+        margin-left: 150px;
+        border-radius: 20px;
+        
+      }
+      .chicken{
+        height: 200px;
+        width: 200px;
+        position: relative;
+        right: 470px;
+       
+      }
+      .h3{
+        text-align: center;
+        color: black;
+      }
+      .h4{
+        text-align: center;
+        color: black;
+      }
+      .two{
+        border: 2px solid white;
+        width: 270px;
+        position: relative;
+        left: 500px;
+        bottom: 280px;
+        background-color: white;
+        margin-left: 50px;
+        border-radius: 20px;
+      }
+      .veg{
+        height: 200px;
+        width: 200px;
+        position: relative;
+        right: 465px;
+      
+      }
+      
+      .sala{
+        height: 200px;
+        width: 200px;
+       position: absolute;
+       left: 450px;
+       top: 1581px;
+      width: 290px;
+      border-radius: 20px 20px 0px 0px;
+      }
+      .local{
+        position: absolute;
+        left: 950px;
+        top: 1750px;
+        text-align: center;
+        background-color: white;
+        width: 290px;
+        color: black;
+      }
+      .local2{
+        position: absolute;
+        left: 950px;
+        top: 1780px;
+        text-align: center;
+        width: 290px;
+        color: black;
+        background-color: white;
+        border-radius: 0px 0px 20px 20px;
+        height: 75px;
+        padding-top: 25px;
+        
+      }
+      .food{
+        text-align: center;
+        position: relative;
+        bottom: 120px;
+        font-weight: 900;
+      }
+      .services{
+        height: 300px;
+        position: relative;
+        bottom: 100px;
+        display: flex;
+
+       }
+      p{
+      padding: 10px;
+      margin: 20px;
+      margin-left: 25px;
+      width: 400px;
+      text-align: center;
+    
+       }
+       .serimg{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        right: 370px;
+        display: flex;
+        border-radius: 50px;
+       }
+
+       .last{
+        background-color: white;
+        height: 250px;
+        position: relative;
+        bottom: 50px;
+        width: 1010px;
+        margin-left: 180px;
+        border-radius: 30px;
+     }
+     .last2{
+      color: black;
+      text-align: center;
+     padding-top: 50px;
+     font-weight: 900;
+     font-family: monospace;
+     }
+     .talk{
+      border:none;
+      position: relative;
+      left: 480px;
+      color: white;
+      background-color: orangered;
+      border-radius: 30px;
+     }
+     .talk:hover{
+      color: white;
+     }
+    
+      
+</style>
+<body>
+    <div class="navbar">
+      <div class="burger"><h1>BURGER KING</h1></div>
+      <ul class="ul">
+       <li><a href="#">HOME</a></li>
+       <li><a href="#yogesh">ABOUT</a></li> 
+       <li><a href="#menu">MENU</a></li>
+       <li><a href="#jap">SERVICE</a></li>
+       <li><a href="#chi">CONTACT</a></li>
+      </ul>
+    </div>
+    <div class="container1">
+     <img src="c.png">
+    </div>
+    <div class="head">
+     <h1 class="king">BURGER KING</h1>
+    <h3 class="most">
+     <pre> 
+      Food the
+      most precious things
+    </pre>
+    </h3>
+    <a href="#" class="today">today menu</a>
+</div>
+<div class="container2">
+  <img src="2.png" class="img2">
+ <div id="sec">
+  <h3 class="about" id="yogesh">ABOUT</h3>
+  <h1 class="lang">
+    <pre></pre>
+    We Speak the good food             
+    language
+</pre>
+</h1>
+  <pre id="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+     Ducimus omnis excepturi aut saepe vitae consectetur eligendi 
+     perferendis ipsum nostrum corrupti.</pre>
+     <a href="#" id="learn">learn more</a>
+ </div>
+</div>
+   <div class="box">
+  <h3 id="menu"> food menu</h3>
+  <h1 id="taste">Taste food good qulality</h1>
+ </div> 
+ <div class="box2">
+   <div class="one">
+    <img src="chicken.jpg" class="chicken">
+     <h3 class="h3">taste food</h3>
+     <h4 class="h4">$2</h4>
+   </div>
+ </div>
+ <div class="two">
+  <img src="veg.png" class="veg">
+   <h3 class="h3">taste food</h3>
+   <h4 class="h4">$2</h4>
+ </div>
+ <div class="three">
+  <img src="sala.png" class="sala">
+   <h3 class="local">taste food</h3>
+   <h4 class="local2">$2</h4>
+ </div>
+ <h3 class="food" id="jap">we provide qulity food</h3>
+</div>
+<div class="services">
+   <div class="services1">
+   <p>
+    <img src="shipping.png" class="serimg">
+    an authoritative direction or instruction to do something. 
+    a legally binding command or decision entered on the court record 
+    (as if issued by a court or judge)</p>
+   </div>
+   <div class="services2">
+    <p>
+      <img src="order.png" class="serimg">
+       authoritative direction or instruction to do something. 
+      a legally binding command or decision entered on the court record 
+      (as if issued by a court or judge)</p>
+   </div>
+   <div class="services3">
+    <p>
+      <img src="deli.jpg" class="serimg">
+      an authoritative direction or instruction to do something. 
+      a legally binding command or decision entered on the court record 
+      (as if issued by a court or judge)</p>
+   </div>
+</div>
+  <div class="last" id="chi">
+    <h1 class="last2"><pre>
+  We make qulity food
+  Everyday
+    </pre></h1>
+    <a href="#" class="talk">let's talk</a>
+  </div>
+  <br><br>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
